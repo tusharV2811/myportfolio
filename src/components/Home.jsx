@@ -20,7 +20,7 @@ const Home = () => {
             ReactJS, Tailwind, NestJS, Kafka, Postgres, MongoDB, NodeJS,
             RestAPI's ,GraphQL, AWS.
           </p>
-          <div className="py-6">
+          <div className="py-6 w-fit">
             <Link to="Portfolio" smooth duration={900}>
               <button className=" group text-white w-fit px-6 py-3 my-2 flex items-center rounded-lg bg-gradient-to-r from-blue-700 to-blue-500 hover:scale-105 duration-200 text-lg cursor-pointer">
                 Portfolio

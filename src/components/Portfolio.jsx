@@ -10,18 +10,18 @@ function Portfolio() {
       <div className="mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-4">
           <p className="text-3xl border-b-4 border-gray-400 pt-10 inline text-white">
-            Portfolio
+            Sample Designs
           </p>
           <p className="py-6">Check out these !</p>
         </div>
-        <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-1 justify-center px-12 gap-8">
+        <div className="grid lg:grid-cols-3 md:grid-cols-2  sm:grid-cols-1 justify-center px-12 gap-8">
           {temp.map((i) => (
             <div
               key={i.id}
-              className="mt-8 border-white shadow-md shadow-slate-400 rounded-md p-2 justify-between hover:scale-110 duration-200"
+              className="mt-8 border-white shadow-md shadow-slate-400 rounded-md p-2 justify-between hover:scale-120 duration-200"
             >
               <img src={i.img} alt="" className="w-fit " />
-              <div className="mt-4 mb-1 text-gray-400 flex flex-row justify-center">
+              {/* <div className="mt-4 mb-1 text-gray-400 flex flex-row justify-center">
                 <a
                   href="https://ankit5054.github.io/Todo_with_react/"
                   rel="noreferrer"
@@ -40,7 +40,8 @@ function Portfolio() {
                     Code
                   </button>
                 </a>
-              </div>
+              </div> */}
+              <div className="mt-4 mb-1 text-gray-400 flex flex-row justify-center">{i.title}</div>
             </div>
           ))}
         </div>

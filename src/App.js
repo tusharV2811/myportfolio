@@ -9,7 +9,7 @@ import Experience from "./components/Experience";
 import Contact from "./components/Contact";
 
 function App() {
-  document.title = "My Portfolio"
+  document.title = "Tushar Verma"
   const [nav, setNav] = useState(false);
   // console.log("asdfskj");
   return (

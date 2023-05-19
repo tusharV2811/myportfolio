@@ -12,7 +12,7 @@ const Social = () => {
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href: "https://www.linkedin.com/in/ankit5054/",
+      href: "https://www.linkedin.com/in/tushar-verma-5103081b2/",
     },
     {
       id: 2,
@@ -30,7 +30,7 @@ const Social = () => {
           Mail <HiOutlineMail size={30} />
         </>
       ),
-      href: "mailto:ankit.mishra9780@gmail.com",
+      href: "mailto:tusharverma159@gmail.com",
     },
     {
       id: 4,

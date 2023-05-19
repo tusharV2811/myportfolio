@@ -28,7 +28,7 @@ const NavBar = ({ prop }) => {
   return (
     <div className="flex px-4 justify-between items-center w-full h-20 bg-black text-white sticky">
       <div>
-        <h1 className="text-5xl font-signature capitalize ml-3 mt-3">ankit</h1>
+        <h1 className="text-5xl font-signature capitalize ml-3 mt-3">Tushar</h1>
       </div>
       <ul className="hidden md:flex">
         {links.map((e) => {

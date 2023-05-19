@@ -16,9 +16,9 @@ function Contact() {
           </div>
           <div className="flex justify-center items-center">
             <form action="https://getform.io/f/b9f45ecd-a569-42d4-8768-d1d16b4f92fd" method="POST" className="flex flex-col w-10/12 ">
-                <input type="text" autocomplete="off" required placeholder="Enter your name" name="name" className="bg-transparent p-2 border-2 rounded-md text-white focus:outline-none" />
-                <input type="text" autocomplete="off" required placeholder="Enter your email" name="email" className="p-2 my-2 border-2 bg-transparent rounded-md text-white focus:outline-none" />
-                <textarea type="text" autocomplete="off" required rows={10} placeholder="Enter your message" name="message" className="p-2 border-2 bg-transparent rounded-md text-white focus:outline-none" />
+                <input type="text" minLength={12} autocomplete="off" required placeholder="Enter your name" name="name" className="bg-transparent p-2 border-2 rounded-md text-white focus:outline-none" />
+                <input type="email" autocomplete="off" minLength={12} required placeholder="Enter your email" name="email" className="p-2 my-2 border-2 bg-transparent rounded-md text-white focus:outline-none" />
+                <textarea type="text" minLength={50} autocomplete="off" required rows={10} placeholder="Enter your message(min 50 characters.)" name="message" className="p-2 border-2 bg-transparent rounded-md text-white focus:outline-none" />
                 <button className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300" >Connect</button>
             </form>
           </div>

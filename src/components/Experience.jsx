@@ -1,66 +1,9 @@
 import React from "react";
 
 import { RxDownload } from "react-icons/rx";
-import temp from '../data/Experience'
-
+import temp from "../data/Experience";
 
 function Experience() {
-  // let temp = [
-  //   {
-  //     id: 1,
-  //     img: html,
-  //     style: "shadow-red-500",
-  //     title: "HTML",
-  //   },
-  //   {
-  //     id: 2,
-  //     img: css,
-  //     style: "shadow-blue-500",
-  //     title: "CSS",
-  //   },
-  //   {
-  //     id: 3,
-  //     img: javascript,
-  //     style: "shadow-yellow-300",
-  //     title: "JavaScript",
-  //   },
-  //   {
-  //     id: 4,
-  //     img: reactImage,
-  //     style: "shadow-blue-600",
-  //     title: "React",
-  //   },
-  //   // {
-  //   //   id: 5,
-  //   //   img: nextjs,
-  //   //   style: "shadow-red-500",
-  //   //   title: "NextJs",
-  //   // },
-  //   {
-  //     id: 6,
-  //     img: graphql,
-  //     style: "shadow-pink-500",
-  //     title: "GraphQL",
-  //   },
-  //   {
-  //     id: 7,
-  //     img: github,
-  //     style: "shadow-gray-400",
-  //     title: "Github",
-  //   },
-  //   {
-  //     id: 8,
-  //     img: tailwind,
-  //     style: "shadow-sky-300",
-  //     title: "Tailwind CSS",
-  //   },
-  //   {
-  //     id: 9,
-  //     img: node,
-  //     style: "shadow-green-400",
-  //     title: "NodeJS",
-  //   },
-  // ];
   return (
     <div
       name="Experience"
@@ -72,7 +15,7 @@ function Experience() {
             <p className="text-3xl border-b-4 border-gray-400  inline text-white">
               Experience
             </p>
-            <p className="py-6">Technologies that I've worked with</p>
+            <p className="py-6">Tools that I've worked with</p>
           </div>
           {/* <div> */}
         </div>{" "}
@@ -96,7 +39,7 @@ function Experience() {
             <a
               rel="noreferrer"
               target="_blank"
-              href="https://drive.google.com/file/d/1RUJ8f5x68dAGKd9MuMU-ZbffT22gfzMr/view?usp=share_link"
+              href="https://drive.google.com/file/d/1WR4Ojl7gfB1Jv3-Vq05x_5A-QFYOtF8x/view"
               download={true}
               className=""
             >
@@ -117,6 +60,5 @@ function Experience() {
     </div>
   );
 }
-
 
 export default Experience;

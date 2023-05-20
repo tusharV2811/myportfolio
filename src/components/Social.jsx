@@ -1,7 +1,8 @@
 import React from "react";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import {  FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import {GoFilePdf} from 'react-icons/go'
+import be from "../assets/be.png";
 
 const Social = () => {
   const links = [
@@ -18,16 +19,16 @@ const Social = () => {
       id: 2,
       child: (
         <>
-          GitHub <FaGithub size={30} />
+          Behance <img src={be} alt="" />
         </>
       ),
-      href: "https://www.github.com/ankit5054/",
+      href: "https://www.behance.net/tush_97",
     },
     {
       id: 3,
       child: (
         <>
-          Mail <HiOutlineMail size={30} />
+          Mail <HiOutlineMail  size={30} />
         </>
       ),
       href: "mailto:tusharverma159@gmail.com",
@@ -39,7 +40,7 @@ const Social = () => {
           Resume <GoFilePdf size={30} />
         </>
       ),
-      href: "https://drive.google.com/file/d/1RUJ8f5x68dAGKd9MuMU-ZbffT22gfzMr/view?usp=share_link",
+      href: "https://drive.google.com/file/d/1WR4Ojl7gfB1Jv3-Vq05x_5A-QFYOtF8x/view?usp=share_link",
       download: true,
     },
   ];
